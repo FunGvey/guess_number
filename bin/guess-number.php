@@ -6,6 +6,6 @@
         require_once($autoLoadGit);
     } else {require_once($autoLoadPackgaist);}
 
-    use function FunGvey\guess_number\Controller\startGame;
+    use function fungvey\guess_number\Controller\startGame;
     startGame();
 ?>
